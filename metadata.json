@@ -1,0 +1,51 @@
+{
+  "name": "Lifetopia Starter Box",
+  "symbol": "LTSB",
+  "description": "Unlock this box to receive your starting items in Lifetopia!",
+  "image": "https://raw.githubusercontent.com/isonnymichael/lifetopia-nft/main/assets/starter_box.png",
+  "attributes": [
+    {
+      "trait_type": "Metadata ID",
+      "value": "starter_box_base"
+    },
+    {
+      "trait_type": "Reward: Gold",
+      "value": "30"
+    },
+    {
+      "trait_type": "Reward: Cucumber Seeds",
+      "value": "3"
+    },
+    {
+      "trait_type": "Reward: Onion Seeds",
+      "value": "3"
+    },
+    {
+      "trait_type": "Reward: Peanut Seeds",
+      "value": "3"
+    },
+    {
+      "trait_type": "Reward: Strawberry Seeds",
+      "value": "3"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://raw.githubusercontent.com/isonnymichael/lifetopia-nft/main/assets/starter_box.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "lifetopia_metadata": {
+      "id": "starter_box_base",
+      "items": {
+        "item_gold": 30,
+        "item_seed_cucumber": 3,
+        "item_seed_onion": 3,
+        "item_seed_penut": 3,
+        "item_seed_starberry": 3
+      }
+    }
+  }
+}
